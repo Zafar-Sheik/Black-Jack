@@ -1,0 +1,55 @@
+body{
+    display: block;
+    background-image: url("assets/background.jpg");
+    background-color: rgba(22, 126, 53, 0.897);
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+h1{
+    display: flex;
+    justify-content: center;  
+    color: rgba(218, 165, 32, 0.808);
+}
+
+#sub-header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-style: italic;
+    
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    color: white;
+   
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    
+}
+
+button{
+
+    color:rgb(20, 102, 84);
+    font-size: large;
+    font-weight: 700;
+    background-color: rgba(218, 165, 32, 0.781);
+
+    padding: 15px;
+    margin: 5px;
+
+    border: none;
+
+    cursor: pointer;
+}
+
